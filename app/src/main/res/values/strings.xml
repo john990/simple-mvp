@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MVP Demo</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_when_tip">When I connect to:</string>
+    <string name="title_do_this">Do this:</string>
+    <string name="action_settings">Settings</string>
+</resources>

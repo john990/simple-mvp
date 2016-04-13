@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+
+    <com.john990.mvp.widget.PinnedSectionListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:cacheColorHint="@color/transparent"
+        android:clipToPadding="false"
+        android:divider="@color/divider"
+        android:dividerHeight="1dp"
+        android:listSelector="?attr/selectableItemBackground"
+        />
+
+    <TextView
+        android:id="@+id/clock"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="bottom|right"
+        android:background="@color/colorPrimary"
+        android:text="1"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        />
+</FrameLayout>
